@@ -635,7 +635,7 @@
   ;; add the -i flag for interactive REPL client
   ;; Reveal REPL with nrepl server, connect to from a Clojure aware editor
   :inspect/reveal-nrepl
-  {:extra-deps {vlaaad/reveal {:mvn/version "1.3.273"}
+  {:extra-deps {vlaaad/reveal {:mvn/version "1.3.274"}
                 nrepl/nrepl   {:mvn/version "0.9.0"}}
    :main-opts  ["-m" "nrepl.cmdline"
                 "--middleware" "[vlaaad.reveal.nrepl/middleware]"]}
