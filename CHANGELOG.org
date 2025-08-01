@@ -2,6 +2,46 @@
 
 * Unreleased
 
+* 2025-07-01
+** Updated
+   - dev: cljstyle & clj-kondo updates in quality-checks
+   - aliases: update library versions using `make outdated`
+   | :name                                | :current | :latest  |
+   |--------------------------------------|----------|----------|
+   | cider/cider-nrepl                    | 0.56.0   | 0.57.0   |
+   | com.github.flow-storm/flow-storm-dbg | 4.4.4    | 4.4.6    |
+   | com.github.seancorfield/next.jdbc    | 1.3.1002 | 1.3.1048 |
+   | io.github.seancorfield/deps-new      | v0.8.1   | v0.9.0   |
+
+* 2025-06-03
+** Updated
+   - aliases: update library versions using `make outdated`
+   | :name                                | :current                                 | :latest                                  |
+   |--------------------------------------|------------------------------------------|------------------------------------------|
+   | cider/cider-nrepl                    | 0.55.7                                   | 0.56.0                                   |
+   | com.github.flow-storm/clojure        | 1.12.0-9                                 | 1.12.1                                   |
+   | com.github.flow-storm/flow-storm-dbg | 4.4.0                                    | 4.4.4                                    |
+   | djblue/portal                        | 0.59.0                                   | 0.59.1                                   |
+   | org.clojure/spec-alpha2              | 4cbfa677c4cd66339f18e1c122222c05c69e0d8e | eb94e46853d90153ba6dc72a4093719f38a90a4a |
+   | refactor-nrepl/refactor-nrepl        | 3.10.0                                   | 3.11.0                                   |
+   | zprint/zprint                        | 1.2.9                                    | 1.3.0                                    |
+
+* 2025-05-02
+** Added
+- dev: ci scheduled stale issue & pr check (monthly)
+- dev: update clj-kondo 2025.04.07 quality-checks workflow
+
+** Updated
+   - aliases: update library versions using `make outdated`
+   | :name                                | :current | :latest |
+   | ------------------------------------ |--------- | ------- |
+   | cider/cider-nrepl                    | 0.53.2   | 0.55.7  |
+   | com.github.flow-storm/flow-storm-dbg | 4.3.0    | 4.4.0   |
+   | djblue/portal                        | 0.58.5   | 0.59.0  |
+   | io.github.clj-holmes/clj-watson      | v6.0.0   | v6.0.1  |
+   | io.github.seancorfield/deps-new      | v0.8.0   | v0.8.1  |
+   | ring/ring-mock                       | 0.4.0    | 0.6.1   |
+
 * 2025-04-02
 ** Added
    - readme: list aliases with `clojure -X:deps aliases`
